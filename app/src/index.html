@@ -1,13 +1,973 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>App</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+  <meta name="description" content=" Cristiane Fundão é enfermeira  e tem  experiência em maternidade na região Serrana do Rio de Janeiro há mais de 7 anos. Além disso, é  nutricionista e atuo nas duas áreas buscando promover a melhoria de saúde dos pacientes.">
+  
+  
+  <title>Cristiane Fundão | Nutricionista & Enfermeira </title>
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/data/data.css">
+  <link rel="stylesheet" href="assets/font-un/css/style.css">
+  <link rel="stylesheet" href="assets/instagram-feed/style.css">
+  <link rel="stylesheet" href="assets/uni/css/style.css">
+  <link rel="stylesheet" href="assets/dropdown-menu/style.light.css">
+  <link rel="preload" as="style" href="assets/base/css/mbr-additional.css"><link rel="stylesheet" href="assets/base/css/mbr-additional.css" type="text/css">
+  
+  <style>
+
+
+.intro8 h3 {
+  
+    font-size: 45px !important;}
+      
+
+    .footer2 .footer-social a{
+        color: #ff7178;
+    }
+
+    .text-img{
+        background-color:#ff7178; 
+        position: relative; 
+        bottom: 22%;
+        z-index: 999; 
+        margin: 0 15px;
+        box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.41);
+
+    }
+
+    .float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden!important;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
+    #dropdown-menu-0 .navbar, #dropdown-menu-0 .dropdown-menu { 
+        box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+    }
+    
+
+    #features10-7 P {
+    font-size: 15px;
+}
+
+    .author{
+        color: #ff7178!important;
+    }
+
+    #formoid{
+        padding-top: 52px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 32px;
+    }
+
+        
+
+    .text-img-sub {
+        color: white!important;
+         font-size:15px;
+         font-weight: 600!important;
+         text-transform: uppercase!important;
+         padding: 8px 5px!important;
+         }
+
+         .flips2_front img {
+        width: auto;
+    }
+
+        
+
+    .flips2_front{
+        background-color: white;
+        }
+
+    .flips2_back {
+        
+        padding: 30px 20px 20px 20px !important;
+        background-color: #00a0ae!important;
+    }
+
+    .title600 {
+    font-size: 36px;
+    }
+
+
+    .flips2_back >h4 {
+        letter-spacing: 0.4px!important;
+        font-weight: 400!important;
+    }
+
+    .flips2 p {
+        color: #fff;
+        opacity: 0.9;}
+    
+
+    div.flips2_back.flipscont2 > p{
+            font-size: 14px!important;
+    }
+
+    .content-momento {
+        left: 5%;
+        top: 50%;
+        padding-left: 5%;
+        padding-bottom: 32px;
+    }
+
+
+    .left{ 
+        color:#ff7178;
+        font-size: 20px;
+        font-weight: 500;
+        float: left;
+    }
+
+    .redes-momento {
+        padding-bottom: 110px;
+    }
+
+    .titulo-momento{
+            clear: both;
+    }
+
+    :focus {
+    outline: -webkit-focus-ring-color auto 1px;
+    outline-color: -webkit-focus-ring-color;
+    outline-style: auto;
+    outline-width: 0px;
+}
+
+    .title600 { 
+            font-weight: 600;
+            text-transform: uppercase;
+    }
+
+    .info-content h3 {
+        font-weight: 600;
+    }
+       
+
+    p{
+            line-height: 21px !important;
+    }
+
+    .mbr-title-font{
+            letter-spacing: 0.3px;
+    }
+
+    .intro8 p {
+        color: #2b2b2b;
+    }
+
+    .btn.btn-primary:hover {
+        background-color: #00585f;
+        border-color: #00585f;
+    }
+
+    .redes-momento:before {
+        content: "";
+        position: absolute;
+        left: 10%;
+        top: 17%;
+        bottom: 0;
+        width: 80px;
+        height: 80px;
+        background: url(./assets/images/seta-momento-1.png) center center no-repeat;
+    }
+
+    .titulo-momento h4:before {
+        content: "";
+        position: absolute;
+        right: 20px;
+        bottom: -25px;
+        width: 150px;
+        height: 150px;
+        background: url(./assets/images/seta-momento-2.png) center center no-repeat;
+    }
+
+     .col-center {
+        margin: 0 auto;
+        float: none !important;
+    }
+
+    .carousel {
+        margin: 50px auto;
+        padding: 0 70px;
+    }
+
+    .carousel-item {
+        color: #999;
+        font-size: 14px;
+        text-align: center;
+        overflow: hidden;
+        min-height: 290px;
+    }
+
+    .carousel .item .img-box {
+        width: 135px;
+        height: 135px;
+        margin: 0 auto;
+        padding: 5px;
+        border: 1px solid #ddd;
+        border-radius: 50%;
+    }
+
+    .carousel .img-box img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        border-radius: 50%;
+    }
+
+    .carousel .testimonial {
+        padding: 30px 0 10px;
+    }
+
+    .carousel .overview {	
+        font-style: italic;
+    }
+
+    .carousel .overview b {
+        text-transform: uppercase;
+        color: #db584e;
+    }
+
+    .carousel .carousel-control {
+        width: 40px;
+        height: 40px;
+        margin-top: -20px;
+        top: 50%;
+        background: none;
+    }
+
+    .carousel-control i {
+        font-size: 68px;
+        line-height: 42px;
+        position: absolute;
+        display: inline-block;
+        color: rgba(0, 0, 0, 0.8);
+        text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+    }
+
+    .carousel .carousel-indicators {
+        bottom: -40px;
+    }
+
+    .carousel-indicators li, .carousel-indicators li.active {
+        width: 10px;
+        height: 10px;
+        margin: 1px 3px;
+        border-radius: 50%;
+    }
+
+    .carousel-indicators li {	
+        background: #999;
+        border-color: transparent;
+        box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+    }
+
+    .carousel-indicators li.active {	
+        background: #555;		
+        box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+    }
+
+    @media only screen and (max-width: 1199px) and (min-width: 767px) {
+        .navbar-brand{
+            float: none;
+            margin: 0 auto;
+            text-align: center;
+
+        }
+
+        .navbar-nav {
+            float: none;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+
+    }
+
+    @media only screen and (max-width: 1199px) and (min-width: 992px) {
+
+        #features10-7 P {
+            font-size: 14px;
+        }
+
+        .text-img {
+        bottom: 29%;}
+        .c-info{
+        margin-bottom: 32px !important;
+        clear: both!important;
+        }
+
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 766px) {
+
+        #header18-9 > div > div.container > div > div.col-md-5 > h3{
+        margin-top: 35px;
+        }
+
+    
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px) {
+
+        .flips2{
+        margin-bottom: 32px;
+        }
+
+        .pd-top{
+            margin-top: 70px;
+
+        }
+
+
+    }
+
+
+    @media only screen and (max-width: 767px) and (min-width: 280px) {
+        .footer2 .footer-social {
+        margin: 0 auto !important;
+        }
+
+        .float {
+    
+        bottom: 10px!important;
+        right: 10px!important;
+
+        }
+
+        
+
+        .c-info{
+            margin-bottom: 32px !important;
+        }
+
+        .pd-m32{
+            padding: 32px 40px ;
+        
+        }
+
+        .pd-f{
+        
+            padding-right: 20px;
+        }
+
+        .flips2{
+            margin-bottom: 32px;
+        }
+
+        .nav-dropdown{
+            background-color: #d2e2e8!important;
+
+            margin-top: -5px !important;
+
+        }
+
+        .navbar-toggler {
+        padding: 5px 10px!important;
+        border: 1 px solid gray !important;
+        border-radius: 4px!important;}
+
+    
+
+    }
+
+    @media only screen and (min-width: 992px){
+        .mobile{
+            display: none;
+        }
+    }
+
+
+    @media only screen and (max-width: 991px) { 
+        .pd32{
+        padding-top: 32px;
+        }
+        .c-info{
+            margin-bottom: 32px !important;
+        }
+
+        .computador{
+            display: none;
+        }
+
+        .pd-m32{
+        padding-top: 32px;
+        }
+
+        .center991{
+            text-align: center;
+        }
+
+        #msg-box9-3 > div > div > div.col-md-3.center991.pd15 > div > a{
+            margin: 0 auto;
+            margin-top: 32px;
+            text-align: center;
+            float: none;
+
+        }
+    }
+
+    @media only screen and (max-width: 767px) and (min-width: 280px){ 
+        .intro8 img {
+            width: 250%;
+            margin-left: -15%;
+            margin-top: 10px;
+        }
+
+    }
+
+    @media only screen and (max-width: 433px) and (min-width: 280px) {
+        
+
+        .fontmobile{
+            font-size:1.2rem ;
+        }
+
+        .intro8 h3 {
+        font-size: 3rem !important;
+        line-height: 3rem;
+        }
+
+        
+
+        #msg-box8-a H3{
+            font-size: 3rem;
+        }
+        .title600{
+            font-size: 3rem;
+        }
+
+        #form6-d H3 {
+        font-size: 3rem;
+        }
+    }
+
+    @media only screen and (max-width: 370px) and (min-width: 280px) {
+        
+        #footer2 > div > div > div > img{
+            width: 200px;
+        }
+        .services-s5 .service-content h4 {
+            font-size: 1.2rem !important;
+            }
+
+        #contacts5-f P {
+        font-size: 1.2rem
+        }    
+            
+    }
+
+    @media only screen and (max-width: 455px) {
+        
+        .services-s5 .service-content h4 {
+        font-size: 16px;
+        }
+
+        .redes-momento:before {
+        content: "";
+        position: absolute;
+        left: 10%;
+        top: 12%;
+        bottom: 0;
+        width: 80px;
+        height: 80px;
+        background: url(./assets/images/seta-momento-1.png) center center no-repeat;
+        }
+
+        #dropdown-menu-0 .btn {
+        font-size: 1.3rem;
+        }
+
+            
+    }
+    
+
+@media only screen and (max-width: 370px) {
+
+    .navbar-dropdown .navbar-logo img{
+        width: 200px!important;
+        height: 42px !important;
+    }
+    .logowidth{
+        width: 200px!important;
+        height: 42px !important;
+
+    }
+
+    #dropdown-menu-0 .btn {
+        font-size: 1rem;
+        }
+
+}
+
+@media only screen and (max-width: 280px){
+    .redes-momento:before {
+    display: none !important;
+}
+
+}
+
+
+
+  </style>
+  
+  
 </head>
 <body>
-  <app-root></app-root>
-</body>
+  
+  <section id="dropdown-menu-0" data-rv-view="247">
+
+    <nav class="navbar navbar-dropdown mbr-title-font navbar-fixed-top">
+
+        <div class="container">
+
+            <div class="navbar-brand">
+                <a href="index.html" class="navbar-logo"><img  class="logowidth" src="assets/images/marca-cristiane-fundao-horizontal-rgb-405x128.png" alt="Logo Cristiane Fundão"></a>
+                
+            </div>
+
+            <button class="navbar-toggler pull-xs-right hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+                ☰
+            </button>
+            <ul class="nav-dropdown collapse pull-xs-right navbar-toggleable-sm nav navbar-nav" id="exCollapsingNavbar">
+                <li class="nav-item"><a class="nav-link link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link link" href="#sobre">Sobre mim</a></li>
+                <li class="nav-item"><a class="nav-link link" href="#servicos">Serviços</a></li>
+                <li class="nav-item"><a class="nav-link link" href="#contato">Contato</a></li>
+                <li class="nav-item nav-btn"><a class="nav-link btn btn-primary mbr-title-font" href="#">Agendar consulta</a></li></ul>
+
+        </div>
+
+    </nav>
+
+</section>
+
+<section class="mbr-section--bg-adapted mbr-after-navbar" id="inicio" data-rv-view="249" style="background-color: #eaeff1 !important;">
+    <div class="intro intro8" style="padding-top: 160px; padding-bottom: 0px;">
+        <div class="mbr-overlay" style="opacity: 0.0; background-color: rgb(0, 0, 0);"></div>
+        <div class="container">
+            <div class="row center-content">
+                <div class="col-md-5 pd-top">
+                    <h3 class="mbr-title-font" style="font-weight: 600 !important;color: rgb(0, 92, 100);">Apoio às mulheres durante a gravidez e amamentação</h3>
+                    <p>A amamentação é um ato de extrema importância para a saúde do bebê e da mãe além de fortalecer o vínculo afetivo entre ambos.</p>
+                    
+                </div>
+
+                <div class="col-md-6 col-md-push-1">
+                    <img src="assets/images/21.png" class="pull-left mobile" alt="Cristiane Fundão | Nutricionista & Enfermeira">
+                    <img src="assets/images/2.png" class="pull-left computador" alt="Cristiane Fundão | Nutricionista & Enfermeira">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services mbr-section--bg-adapted mbr-section--relative" id="features1-6" data-rv-view="252" style="background-color: #fdfbfb; padding-top: 100px; padding-bottom: 50px;">
+    
+    <div class="container">
+        <div class="services-s5 row">
+            <div class="col-md-3 col-xs-6" style="display: block;">
+                <div class="service-content">
+                    <i class="fa fa-check"></i>
+                    <h4 class="mbr-title-font textmob">Orientação<br> Nutricional</h4>
+                    
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6 " style="display: block;">
+                <div class="service-content">
+                    <i class="fa fa-check"></i>
+                    <h4 class="mbr-title-font textmob">Profissonal <br>Especializada</h4>
+                    
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6 pd32" style="display: block;">
+                <div class="service-content">
+                    <i class="fa fa-check"></i>
+                    <h4 class="mbr-title-font textmob">Atendimento <br> domiciliar e on-line</h4>
+                    
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6 pd32" style="display: block;">
+                <div class="service-content">
+                    <i class="fa fa-check"></i>
+                    <h4 class="mbr-title-font textmob">Acompanhamento <br>nutricional</h4>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section--bg-adapted mbr-section--relative" id="msg-box8-a" data-rv-view="255" style="background-color: rgb(255, 255, 255);">
+    <div class="info-content" style="padding-top: 70px; padding-bottom: 0px;">
+        
+        <div class="container">
+            <div class="row center-content center-content-ipad">
+                <div class="col-md-6 col-sm-7 text-center">
+                    <figure class="mbr-figure mbr-figure--adapted mbr-figure--full-width"><img src="assets/images/ato-de-amor.jpg" class="mbr-figure__img img-responsive center-content" alt="Cristiane Fundão - AMAMENTAR: UM
+                        ATO DE AMOR"></figure>
+                </div>
+                <div class="col-md-6 col-sm-5">
+                    <h3 class="mbr-title-font title600">Amamentar: um<br> ato de amor</h3>
+                    <p style="text-align: justify;">O leite materno é rico em nutrientes essenciais para o pleno desenvolvimento do recém-nascido além de manter os níveis de saúde do bebê.
+<br><br>A Organização Mundial de Saúde bem como o Ministério da Saúde preconizam o ato de amamentar sob livre demanda até o sexto mês de vida. Porém, essa fase por vezes é cercada de dúvidas, mitos e maus hábitos prejudiciais à mãe e ao bebê. É comum a ocorrência de mamas ingurgitadas, candidíase mamária, mastites, fissuras/rachaduras, entre outros problemas.
+<br><br>O ato de amamentar pode não ser fácil para algumas mulheres, requerendo paciência, vontade, apoio e dedicação. Face a isso, é importante que as mães e os familiares busquem orientação com especialistas para tratar tais problemas e principalmente evitar que aconteçam.
+<br><br>Como enfermeira e nutricionista, além de formação complementar em aleitamento materno, auxilio as mamães e futuras mamães quanto aos cuidados necessários durante a fase de amamentação bem como realizo alguns tratamentos para mitigação dos problemas de saúde que ocorrem nessa fase.</p>
+                    <div class="space30"></div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section--bg-adapted mbr-section--relative" id="msg-box9-3" data-rv-view="258" style="background-color: #00b3c0">
+    <div class="cta-wrap bg-primary" style="padding-top: 80px; padding-bottom: 65px;">
+        
+        <div class="container">
+            <div class="col-md-9 center991">
+                <h2 class="mbr-title-font">PRECISA DE ORIENTAÇÃO NUTRICIONAL?</h2>
+                <p style="opacity: 0.9!important;">Entre em contato e agende uma consulta.</p>
+            </div>
+            <div class="col-md-3 center991  pd15">
+                <div class="center991"><a class="btn mbr-title-font cta-btn btn-default" href="#" style="border-radius: 50px;">AGENDAR CONSULTA</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section--bg-adapted mbr-section--relative" id="servicos" data-rv-view="261" style="background-color: #fdfbfb; ">
+
+    
+
+    <div class="elements-content" style="padding-top: 100px; padding-bottom: 100px;">
+        <div class="container">
+            <div class=" text-center col-md-8 col-md-offset-2 space50">
+                <h1 class="mbr-title-font title600">Áreas de atuação</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="flips2">
+                        <div class="flips2_front flipscont2" style="position: absolute;">
+                            
+                            <img alt="" class="full"  src="assets/images/1.jpg" alt="Orientação para amamentação">
+                            <div  class="text-img"> <p class="text-img-sub"> Orientação para<br> amamentação </p></div>
+                        </div>
+                        <div class="flips2_back flipscont2">
+                            <h4 class="text-white space20 mbr-title-font"><strong>Orientação para amamentação</strong></h4>
+                            <p>Nesta consulta, a mãe será informada sobre como se preparar para o início da amamentação desde o momento do parto, a correta forma de amamentar e os principais problemas que podem ocorrer no início da amamentação.</p>
+                            <br>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="flips2">
+                        <div class="flips2_front flipscont2">
+                            <img alt="" class="full" src="assets/images/2.jpg" alt="Análise de problemas nas mamas">
+                            <div  class="text-img"> <p class="text-img-sub"> Análise de problemas<br> nas mamas</p></div>
+                        </div>
+                        <div class="flips2_back flipscont2">
+                            <h4 class="text-white space20 mbr-title-font"><strong>Análise de problemas nas mamas</strong></h4>
+                            <p>Nesta consulta, serão analisados os problemas que podem ocorrer nas mamas durante a amamentação, como mitigar tais problemas, tratamento de alguns tipos de problemas e encaminhamentos adequados para outros.</p>
+                            <br>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="flips2">
+                        <div class="flips2_front flipscont2">
+                            <img alt="" class="full" src="assets/images/3.jpg" alt="Atendimento nutricional domiciliar">
+                            <div  class="text-img"> <p class="text-img-sub"> Atendimento<br> nutricional domiciliar</p></div>
+                        </div>
+                        <div class="flips2_back flipscont2">
+                            <h4 class="text-white space20 mbr-title-font"><strong>Atendimento nutricional domiciliar</strong></h4>
+                            <p>Nesta consulta, será feita a avaliação antropométrica do paciente, análise de comportamento alimentar, montagem de plano alimentar adequado às necessidades e ao cotidiano do paciente.</p>
+                            <br>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="flips2">
+                        <div class="flips2_front flipscont2">
+                            <img alt="" class="full" src="assets/images/4.jpg" alt="Acompanhamento nutricional">
+                            <div  class="text-img"> <p class="text-img-sub">Acompanhamento<br> nutricional</p></div>
+                        </div>
+                        <div class="flips2_back flipscont2">
+                            <h4 class="text-white space20 mbr-title-font"><strong>Acompanhamento nutricional</strong></h4>
+                            <p>Nesta consulta, será feito o acompanhamento nutricional do paciente, evolução de parâmetros e adequação de dieta conforme necessidades do paciente.</p>
+                            <br>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section--bg-adapted mbr-section--relative" id="sobre" data-rv-view="266" style="background-color: rgb(255, 255, 255); background-image: url(./assets/images/fundo-sobre.jpg);">
+    <div class="elements-content" style="padding-top: 100px; padding-bottom: 100px;">
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row center-content" style="background-color: #f2f2f2; -webkit-box-shadow: -1px 2px 13px 0px rgba(0,0,0,0.1);
+                    -moz-box-shadow: -1px 2px 13px 0px rgba(0,0,0,0.1);
+                    box-shadow: -1px 2px 13px 0px rgba(0,0,0,0.1);">
+                        <div class="col-md-6" style="padding-left: 0px;">
+                            <figure class="mbr-figure mbr-figure--adapted mbr-figure--full-width">
+                                <img  src="./assets/images/sobre-min.jpg" class="mbr-figure__img img-responsive center-content" alt="Cristiane Fundão">
+                            </figure>
+                        </div>
+                        <div class="col-md-6 pd-m32">
+                            <h3 class=" space20 mbr-title-font title600" >Sobre Mim</h3>
+                            <p style="text-align: justify; padding-right: 15px;">Olá! Que bom contar com a sua presença no meu site. Me chamo Cristiane Fundão e sou enfermeira com experiência em maternidade na região Serrana do Rio de Janeiro há mais de 7 anos. Além disso, sou nutricionista e atuo nas duas áreas buscando promover a melhoria de saúde dos pacientes.
+<br><br>Juntando o conhecimento da enfermagem e da nutrição, realizo trabalhos de consultoria em amamentação no intuito de orientar as mamães e futuras mamães quanto à correta forma de amamentar. Também realizo tratamentos de problemas na mama ocasionados durante o período de lactação, por exemplo: fissuras e rachaduras mamilares, obstrução de ductos, etc.
+<br><br>Porém, minhas atividades não se restringem aos atendimentos de enfermagem na maternidade que trabalho e nem às consultas para orientação quanto ao aleitamento materno. Realizo consultas de nutrição aos pacientes que necessitam ou desejam uma readequação alimentar visando uma melhor qualidade de vida. 
+<br><br>Sinta-se à vontade para conhecer um pouco mais do meu trabalho e caso tenha alguma necessidade ou dúvida entre em contato e terei o prazer em auxiliar no que for possível.&nbsp;</p>
+                            <div class="space30"></div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-instagram-feed" id="instagram-feed-block-h" data-per-row-grid="3" data-rows="3" data-per-row-slider="" data-spacing="5" data-full-width="" data-account="fundaocristiane" data-rv-view="264" style="background-image: url(assets/images/instagram-background.jpg); padding-top: 80px; padding-bottom: 80px;">
+    <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(239, 239, 239);">
+    </div>
+    <div class="container container_toggle">
+        <div class="row">
+            <div class="col">
+                <div class="inst">
+                    
+                    
+                    <div class="row">
+                        <div class="col-md-6 d-flex flex-column justify-content-center align-items-center" >
+                            <div class="content-momento">
+                                <h1 class="inst__title  mbr-fonts-style display-2 title600" style="text-align: left;">Nossas redes</h1>
+                                <div class="redes-momento">
+                                    <p class="left fontmobile" >Siga-nos nas redes sociais ----- </p>
+                                    <a class="left transition" href="https://pt-br.facebook.com/cristiane.fundao"><i class="fa fa-facebook-f" style="padding-left: 10px;"></i></a>
+                                    <a class="left transition" href="https://www.instagram.com/fundaocristiane/"><i class="fa fa-instagram" style="padding-left: 10px;"></i></a>
+                                </div>
+
+                                <h4><span style="font-size: 25px; line-height: 40px; font-weight: 300; color:#005c64; letter-spacing: 0.4px !important;"> Compartilho muitas</span><br> <span style="font-size: 25px; line-height: 30px; font-weight: 600; letter-spacing: 0.4px !important;  line-height: 28px; color:#ff7178">informações valiosas!</span><br> <span style="font-size: 25px; line-height: 30px; font-weight: 300;    line-height: 45px; color:#005c64; letter-spacing: 0.4px !important;">Fique por dentro das <u>novidades!</u> </span></h4>
+                                <br><br><p> <span style="font-size: 25px; line-height: 30px; font-weight: 600; letter-spacing: 0.4px !important;  line-height: 28px; color:#ff7178">Minha Filosofia</span></p>
+                                    <p  class= "pd-f" style="text-align: justify;">Nos atendimentos que realizo, tanto como nutricionista quanto consultora em amamentação, acho importante conhecer um pouco sobre o contexto histórico do paciente. Ter ciência de suas dificuldades e objetivos é importante para o adequado procedimento da consulta. Além disso procuro sempre envolver a família como suporte para qualquer tipo de tratamento, seja relacionado às questões de amamentação ou mesmo de uma readequação alimentar.</p>
+                            
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="inst__content"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section--bg-adapted mbr-section--relative" id="testimonials3-c" data-rv-view="277" style="background-color: rgb(255, 255, 255);">
+    <div class="testimonials3 testimonials testimonials-white" style="padding-top: 100px; padding-bottom: 120px;">
+        
+        <div class="container">
+            <div class="section-head text-center col-md-8 col-md-offset-2 space50">
+                <h3 class="mbr-title-font title600" >DEPOIMENTOS</h3>
+                <p>O QUE OS PACIENTES DIZEM</p>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="quote3 testimonials3-c">
+                        <div>
+                            <p>Os conselhos passados pela Cristiane me ajudaram a superar as dificuldades de amamentação que eu nao imaginava que teria.</p>
+                            <figure class="mbr-figure mbr-figure--adapted mbr-figure--full-width"><img src="assets/images/6.jpg"  alt="Luciana Fundão" class="mbr-figure__img"></figure>
+                            <span class="author">Luciana Fundão</span>
+                        </div>
+                        <div>
+                            <p> A amamentação foi um momento muito complicado e delicado em minha vida. O apoio e as orientações da Cristiane foram fundamentais, para que eu não desistisse, prematuramente, de amamentar.</p>
+                            <figure class="mbr-figure mbr-figure--adapted mbr-figure--full-width"><img src="assets/images/6.jpg"  alt="Rosana Cintra" class="mbr-figure__img"></figure>
+                            <span class="author"> Rosana Cintra</span>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet libero in elit imperdiet scelerisque at at tellus. Cras eu nunc et erat maximus.</p>
+                            <figure class="mbr-figure mbr-figure--adapted mbr-figure--full-width"><img src="assets/images/6.jpg" alt="nome" class="mbr-figure__img"></figure>
+                            <span class="author">Paula Morais</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section--bg-adapted mbr-section--relative" id="form6-d" data-rv-view="280" style="background-color: #f2f2f2">
+    <div id="contato" style="padding-top: 0px; padding-bottom: 0px;">
+        
+        <div class="container-fluid no-padding">
+            <div class="row" style="width: 100%; margin-left: 0px;">
+
+                <div class="col-md-6 no-padding" style="background-image: url(./assets/images/contato.jpg); background-size: cover; background-position: left; height: 550px">
+                    
+                </div>
+
+                <div class="col-md-6"  id="formoid" >
+                    <h3 class="mbr-title-font title600">Contato</h3>
+                    <p>Caso tenha alguma pergunta ou queira receber mais informações sobre meus serviços, fique à vontade para entrar em contato.</p>
+                    <div class="clearfix space20"></div>
+
+                    <div data-form-alert="true">
+                        <div class="hide" data-form-alert-success="true">Obrigado por preencher o formulário!</div>
+                    </div>
+                    <form class="positioned"  id="contactForm" action="mail.php" method="post">
+                        <input type="hidden"  data-form-email="true">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div>
+                                    <input type="text" class="form-control" name="name" required="" placeholder="Nome" data-form-field="Name">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div>
+                                    <input type="email" class="form-control" name="email" required="" placeholder="Email" data-form-field="Email">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <input type="text" class="form-control" name="subject" required="" placeholder="Assunto" data-form-field="Subject">
+                        </div>
+                        <textarea class="form-control" name="message" rows="4" placeholder="Mensagem" data-form-field="Message"></textarea>
+
+                        <div> <button type="submit"  name="acao" class="btn mbr-title-font btn-primary btn-ico">Enviar Mensagem<br></button></div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section--bg-adapted mbr-section--relative" id="contacts5-f" data-rv-view="290" style="background-color: rgb(255, 255, 255);">
+        
+    <div id="contact-info" style="padding-top: 100px; padding-bottom: 100px;">
+        <div class="container">
+            <div class="section-head text-center col-md-8 col-md-offset-2 space50">
+                <h1 class="mbr-title-font">Tem alguma dúvida?</h1>
+                <p>Sinta-se à vontade para conhecer um pouco mais do meu trabalho e caso tenha alguma necessidade ou dúvida entre em contato e terei o prazer em auxiliar no que for possível. </p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 ">
+                    <div class="c-info">
+                        <i class="fa mbr-primary-color fa-whatsapp"></i>
+                        <h5 class="mbr-title-font"><strong>Whatsapp </strong></h5>
+                        <p> <a  href="https://api.whatsapp.com/send?phone=5521997557073&text=&source=&data=&app_absent=">(21) 9 9755-7073 </a> </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 ">
+                    <div class="c-info">
+                        <i class="fa mbr-primary-color fa-envelope"></i>
+                        <h5 class="mbr-title-font"><strong>E-mail </strong></h5>
+                        <p><a href="malioto:contato@cristianefundao.com.br">contato@cristianefundao.com.br</a></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="c-info">
+                        <i class="fa mbr-primary-color fa-map-marker"></i>
+                        <h5 class="mbr-title-font"><strong>Atendimento domiciliar </strong></h5>
+                        <p style="color: #ff7178 !important;">Regiao Serrana do Rio e capital</p>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section  style="opacity: 0.7;background-color: #d2e2e8;  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;">
+    <footer class="footer2" id="footer2" style="padding-top: 80px; padding-bottom: 60px;">
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <img src="./assets/images/logo-footer.png" alt="Logo Cristiane Fundão" style="padding-bottom: 32px;">
+                    <p style="color:black;"> <strong> Cristiane Fundão</strong> <br> Nutricionista - CRN: 19102284 |  Enfermeira - COREN: 198390 </p>
+                    <div class="space20"></div>
+                    <div class="footer-social space30"><a class="fa" title="LinkedIn" target="_blank" href="https://br.linkedin.com/in/cristiane-fund%C3%A3o-de-souza-castro-549354102"><i class="fa fa-linkedin"></i></a> <a class="fa" title="Facebook" target="_blank" href="https://pt-br.facebook.com/cristiane.fundao"><i class="fa fa-facebook"></i></a>    <a class="fa" title="Instagram" target="_blank" href="https://www.instagram.com/fundaocristiane/"><i class="fa fa-instagram"></i></a> </div>
+
+                    <p></p>
+                </div>
+       
+            </div>
+        </div>
+    </footer>
+</section>
+
+<section class="mbr-section--bg-adapted mbr-section--relative" id="footer1-i" data-rv-view="302" style="background-color: #ff7178;">
+    <div class="footer-copy" style="padding-top: 20px; padding-bottom: 20px;">
+        
+        <div class="container mbr-title-font">2020 © cristiane fundão - Todos os direitos reservados</div>
+    </div>
+</section>
+<a href="https://api.whatsapp.com/send?phone=5521997557073&text=&source=&data=&app_absent=" class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
+<script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/web/assets/bootstrap3-migrate/bootstrap.min.js"></script>
+  <script src="assets/smooth-scroll/SmoothScroll.js"></script>
+  <script src="assets/data/data.js"></script>
+  <script src="assets/base2/base2.js"></script>
+  <script src="assets/instagram-feed/index.js"></script>
+  <script src="assets/data/data.min.js"></script>
+  <script src="assets/uni/js/script.js"></script>
+  <script src="assets/dropdown-menu/script.js"></script>
+  <script src="assets/formoid/formoid.min.js"></script>
+  
+
+  </body>
 </html>

@@ -1,0 +1,213 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap);
+
+
+
+.btn.btn-primary {
+  background-color: #ff7178;
+  border-color: #ff7178;
+}
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary.focus,
+.btn.btn-primary:active,
+.btn.btn-primary.active {
+  background-color: #111111;
+  border-color: #111111;
+}
+.btn.btn-info {
+  background-color: #5ca989;
+  border-color: #5ca989;
+}
+.btn.btn-info:hover,
+.btn.btn-info:focus,
+.btn.btn-info.focus,
+.btn.btn-info:active,
+.btn.btn-info.active {
+  background-color: #407961;
+  border-color: #407961;
+}
+.btn.btn-success {
+  background-color: #00abb6;
+  border-color: #00abb6;
+}
+.btn.btn-success:hover,
+.btn.btn-success:focus,
+.btn.btn-success.focus,
+.btn.btn-success:active,
+.btn.btn-success.active {
+  background-color: #00636a;
+  border-color: #00636a;
+}
+.btn.btn-warning {
+  background-color: #b5c402;
+  border-color: #b5c402;
+}
+.btn.btn-warning:hover,
+.btn.btn-warning:focus,
+.btn.btn-warning.focus,
+.btn.btn-warning:active,
+.btn.btn-warning.active {
+  background-color: #6f7801;
+  border-color: #6f7801;
+}
+.btn.btn-danger {
+  background-color: #f97352;
+  border-color: #f97352;
+}
+.btn.btn-danger:hover,
+.btn.btn-danger:focus,
+.btn.btn-danger.focus,
+.btn.btn-danger:active,
+.btn.btn-danger.active {
+  background-color: #f63709;
+  border-color: #f63709;
+}
+.text-primary {
+  color: #ff7178 !important;
+}
+.text-info {
+  color: #5ca989 !important;
+}
+.text-success {
+  color: #00abb6 !important;
+}
+.text-warning {
+  color: #b5c402 !important;
+}
+.text-danger {
+  color: #f97352 !important;
+}
+a {
+  color: #ff7178;
+}
+a:hover,
+a:focus,
+a.focus,
+a:active,
+a.active {
+  color: #ff242f;
+}
+.mbr-primary-color,
+.s2-box:hover .s2-box-ico div,
+.content8 .nav-tabs > li > a::after,
+.extFooter1 ul li:before,
+.mbr-gallery-filter li:hover,
+.extFooter1 ul li a:hover {
+  color: #ff7178 !important;
+}
+.navbar-nav > li > a:hover,
+.dropdown1-menu > li > a:hover,
+.nav > li > a:hover,
+.nav > li > a:focus,
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus,
+.dropdown-menu a:hover,
+.nav-tabs > li.active > a,
+.content8 .nav-tabs > li.active > a {
+  color: #ff7178 !important;
+}
+.cta-wrap.bg-dark .cta-btn.btn-default:hover,
+.cta-wrap .cta-btn.btn-default:hover,
+.mbr-primary-bgColor,
+.nav-tabs > li > a::after,
+.services-s5 .service-content:hover i {
+  background: #ff7178 !important;
+}
+blockquote {
+  border-left-color: #ff7178;
+}
+.process-step2 .btn-circle:hover,
+.process-step2 .btn-info,
+.mbr-slider .carousel-control:hover {
+  background: #ff7178 !important;
+  border-color: #ff7178 !important;
+}
+.services-s5 .service-content:hover i:after,
+.cta-wrap.bg-dark .cta-btn:hover,
+.cta-wrap.bg-primary .cta-btn:hover,
+.nav-link.btn.btn-primary:hover {
+  border-color: #ff7178;
+}
+.mbr-gallery-filter li.active {
+  color: #ff7178;
+  border-color: #ff7178;
+}
+.cta-wrap .cta-btn.btn-default:hover,
+.cta-wrap.bg-dark .cta-btn.btn-default:hover {
+  background: #ff7178;
+  border-color: #ff7178;
+}
+.mbr-title-font,
+.mbr-gallery-filter li {
+  font-family: 'Montserrat', sans-serif !important;
+}
+.mbr-text-font,
+p {
+  font-family: 'Montserrat', sans-serif !important;
+}
+#dropdown-menu-0 .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-0 .nav .link,
+#dropdown-menu-0 .dropdown-item {
+  font-size: 1em;
+  color: #005c64;
+  font-family: 'Montserrat', sans-serif;
+}
+#dropdown-menu-0 .navbar,
+#dropdown-menu-0 .dropdown-menu {
+  background: #ffffff;
+}
+#dropdown-menu-0 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-0 .dropdown-menu a:hover,
+#dropdown-menu-0 .dropdown-menu a:focus {
+  background: #f5f5f5;
+}
+#dropdown-menu-0 .navbar-toggler {
+  color: #005c64;
+}
+#dropdown-menu-0 .btn {
+  font-size: 14px;
+}
+#header18-9 H3 {
+  font-size: 46px;
+}
+#msg-box8-a H3 {
+  font-size: 36px;
+}
+#msg-box9-3 P {
+  color: #ffffff;
+}
+#features10-7 H1 {
+  font-size: 36px;
+}
+#features10-7 P {
+  font-size: 10px;
+}
+#msg-box5-2 H3 {
+  font-size: 36px;
+}
+#instagram-feed-block-h .inst__title {
+  text-align: center;
+}
+#testimonials4-b p,
+#testimonials4-b span {
+  color: #fff;
+}
+#form6-d H3 {
+  font-size: 36px;
+}
+#contacts5-f H5 {
+  font-size: 15px;
+}
+#contacts5-f P {
+  font-size: 15px;
+}
+#contacts4-e P {
+  color: #ffffff;
+}
+#footer1-i DIV {
+  font-size: 12px;
+}
